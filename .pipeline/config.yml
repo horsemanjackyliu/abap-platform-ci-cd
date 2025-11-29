@@ -1,15 +1,15 @@
 general:
-  cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'myOrg'
-  cfSpace: 'mySpace'
-  cfCredentialsId: 'cfAuthentification'
-  cfServiceInstance: 'atc_system'
-  repositories: 'repositories.yml'
+  cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
+  cfOrg: "Adoption_and Consumption COE_ABAPWorkshop"
+  cfSpace: "dev"
+  cfCredentialsId: "cfAuthentification"
+  cfServiceInstance: "abap"
+  repositories: "repositories.yml"
 stages:
   Clone Repositories:
-    strategy: 'Pull'
+    strategy: "Pull"
   ATC:
-    atcConfig: 'atcConfig.yml'
+    atcConfig: "atcConfig.yml"
   AUnit:
     # In order to be executed, the AUnit stage needs at least one configuration entry
     # If the AUnit stage should not be executed, delete the whole section
