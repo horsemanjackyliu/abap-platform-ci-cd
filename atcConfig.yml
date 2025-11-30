@@ -1,4 +1,4 @@
-checkvariant: ABAP_CLOUD_DEVELOPMENT_PARTNER
+checkvariant: ABAP_CLOUD_READINESS
 atcobjects:
   softwarecomponent:
     - name: "ZGCTSDEMO2"
