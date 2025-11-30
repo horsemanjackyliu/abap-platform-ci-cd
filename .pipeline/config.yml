@@ -8,6 +8,7 @@ general:
 stages:
   Clone Repositories:
     strategy: "Pull"
+  Step: sh 'chmod +x /Users/I501000/.jenkins/workspace/abap_abapcicd@script'
   ATC:
     atcConfig: "atcConfig.yml"
   AUnit:
