@@ -8,7 +8,7 @@ general:
 stages:
   Clone Repositories:
     strategy: "Pull"
-  Step: sh 'chmod +x /Users/I501000/.jenkins/workspace/abap_abapcicd@script'
+  Step: sh 'chmod +x ./piper'
   ATC:
     atcConfig: "atcConfig.yml"
   AUnit:
